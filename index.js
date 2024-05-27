@@ -5,8 +5,7 @@ const apiRouter = require("./routes");
 const app = express();
 
 const corsOptions = {
-  origin:
-    "https://rentify-frontend-cfmt-6zjypaqbh-yogesh-88s-projects.vercel.app", // Frontend URL
+  origin: "https://main--stately-florentine-58efc8.netlify.app",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
